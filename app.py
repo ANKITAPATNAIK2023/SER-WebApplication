@@ -261,9 +261,8 @@ def main():
     st.sidebar.write(" 6. Sad😥 ")
     st.sidebar.write(" 7. Surprise😮 ")
 
-    #st.sidebar.subheader(" You can check out source code of this website [here](https://github.com/ompathak23/SER-App).")
-    st.sidebar.markdown("Made by  [Ankita Patnaik](https://www.linkedin.com/in/ankita-patnaik-403198158/)  & [B. Saloni Patro](https://www.linkedin.com/in/b-saloni-patro-1b65b0222/) ")
-
+    
+    
 
 
 if __name__ == '__main__':
