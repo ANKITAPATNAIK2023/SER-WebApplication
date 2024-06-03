@@ -21,16 +21,34 @@ A web application for recognizing emotions from speech using a TensorFlow Lite m
 # Installation
 * 1.Clone the repository:
 ```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
-```
-
 git clone https://github.com/ompathak23/SER-App.git
 cd SER-App
+```
 * 2.Install the required dependencies:
-##
+```
 pip install -r requirements.txt
-Run the application:
-
+```
+* 3.Run the application:
+```
 streamlit run app.py
+```
+# Folder Structure
+* audio/: Directory for storing uploaded and recorded audio files.
+* models/: Directory containing the pre-trained TensorFlow model (SER.hdf5).
+* app.py: Main application script.
+* requirements.txt: List of required Python packages.
+* README.md: Project description and instructions.
+# Data Augmentation Functions
+* noise(data, random=False, rate=0.035, threshold=0.075): Adds noise to the audio data.
+* pitch(data, sampling_rate, pitch_factor=0.7, random=False): Changes the pitch of the audio data.
+# Feature Extraction Functions
+* zcr(data, frame_length=2048, hop_length=512): Computes Zero Crossing Rate.
+* rmse(data, frame_length=2048, hop_length=512): Computes Root Mean Square Energy.
+* mfcc(data, sr, frame_length=2048, hop_length=512, flatten=True): Computes Mel-Frequency Cepstral Coefficients.
+* extract_features(data, sr, frame_length=2048, hop_length=512): Extracts a combination of features from the audio data.
+# Logging and File Management
+* log_file(txt=None): Logs file processing details.
+* save_audio(file): Saves uploaded audio files and manages storage by clearing old files.
+# Pre-dataset
+* This model is trained on the [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+  
