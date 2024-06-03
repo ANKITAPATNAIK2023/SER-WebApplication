@@ -7,4 +7,25 @@ A web application for recognizing emotions from speech using a TensorFlow Lite m
 * Data Augmentation: Enhances feature extraction using noise addition and pitch shifting.
 * Emotion Prediction: Standardizes features and uses a pre-trained TensorFlow model to predict emotions.
 # Recognized Emotions
-* Angry
+* Angry😡
+* Disgust😖
+* Fear😱
+* Happy😊
+* Neutral😐
+* Sad😥
+* Surprise😮
+# How to Use
+* Upload an Audio File: Click the "Upload file for Speech Emotion Recognition" button and select a .wav file.
+* Record Audio: Click the "Start Recording for Emotion Prediction" button to record a new audio sample.
+* View Results: The predicted emotion will be displayed after analysis.
+# Installation
+* 1.Clone the repository:
+##
+git clone https://github.com/ompathak23/SER-App.git
+cd SER-App
+* 2.Install the required dependencies:
+##
+pip install -r requirements.txt
+Run the application:
+
+streamlit run app.py
