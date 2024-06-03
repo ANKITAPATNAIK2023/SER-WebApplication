@@ -50,5 +50,5 @@ streamlit run app.py
 * log_file(txt=None): Logs file processing details.
 * save_audio(file): Saves uploaded audio files and manages storage by clearing old files.
 # Pre-dataset
-* This model is trained on the [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+* This model is trained on the [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio) dataset.
   
