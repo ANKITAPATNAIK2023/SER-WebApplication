@@ -20,7 +20,12 @@ A web application for recognizing emotions from speech using a TensorFlow Lite m
 * View Results: The predicted emotion will be displayed after analysis.
 # Installation
 * 1.Clone the repository:
-##
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
+
 git clone https://github.com/ompathak23/SER-App.git
 cd SER-App
 * 2.Install the required dependencies:
